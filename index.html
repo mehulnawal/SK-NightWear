@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap  icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- main css style  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- link media css -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+
+</head>
+
+<body>
+
+    <!-- header srt -->
+    <header>
+
+        <!-- navbar srt -->
+        <nav>
+            <!-- search bar -->
+            <section>
+                <div class="search-bar-main-main">
+                    <div class="search-bar-content">
+                        <div class="search-bar">
+                            <i id="search-input-icon" class="bi bi-search"></i>
+                            <input id="search-box" type="text" placeholder="Search Products" class="w-50">
+                        </div>
+                        <a href="#" id="search-close-icon"> <i class="bi bi-x-lg text-dark"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- search bar -->
+
+            <!-- shopping cart -->
+            <section>
+                <div class="shopping-cart-main">
+                    <div class="shopping-cart-content-main">
+                        <div class="shopping-cart-content d-flex align-items-center">
+                            <p class="mb-0 py-2">Shopping Cart</p>
+                            <a href="#" class="ms-auto" id="close-cart-icon"> <i class="bi bi-x-lg "></i></a>
+                        </div>
+                        <div class="wish-sentence text-center">
+                            <span class="ms-3 mt-4 d-inline-block">No Products in the cart.</span>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- shopping cart -->
+
+            <!-- User login  -->
+            <section>
+                <div class="form-main">
+                    <div class="form-main-heading py-4 ps-3">
+                        <a href="">Sign in</a>
+                        <a href="#" id="user-close-icon"><i class="bi bi-x-lg"></i></a>
+                    </div>
+                    <div class="form-user-details mt-3 py-4 ps-4 pe-4">
+                        <label class="" for="">Username or email <span class="text-danger">*</span></label>
+                        <input class="d-block" id="username" type="text"> <br>
+
+                        <label for="">Password <span class="text-danger">*</span> </label>
+                        <input class="d-block" id="password" type="password">
+
+                        <a class="d-inline-block mt-5" id="login" href="">Log in</a>
+                        <a class="d-block text-center mt-3" id="lost-password" href="">Lost your password ?</a>
+
+                        <!-- underline -->
+                        <section>
+                            <div class="container py-5 p-5">
+                                <div class="row">
+                                    <div class="border-sample"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- underline -->
+                        <div class="create-account text-center">
+                            <span class="text-center">No account yet ?</span> <a href="">Create an Account</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- User login  -->
+
+            <!-- menu list -->
+            <section class="">
+                <div class="menu-list-main">
+
+                    <div class="menu-list-content d-flex align-items-center ">
+                        <a id="menu-close-icon" class="ms-auto d-inline-block text-black" href=""><i
+                                class="fa-solid fa-xmark"></i></a>
+                    </div>
+
+                    <div class="menu-list-items mt-5">
+                        <ul class="d-flex flex-column gap-3 ">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Companies</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <!-- menu list -->
+
+            <!--1st heading-main -->
+            <section>
+                <div class="navbar-header py-2">
+                    <div class="container">
+                        <div class="navbar-main">
+                            <div class="row align-items-center">
+
+                                <div class="col-12">
+                                    <div class="header-text text-white text-center">
+                                        <span>15% off+ free jewelry box on orders above $200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 1st  heading-main -->
+
+            <!-- 2nd navbar -->
+            <section>
+                <div class="navbar-navbar shadow ">
+                    <div class="container-fluid">
+                        <div class="navbar-links ">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-lg-3 d-flex col-7 justify-content-lg-start justify-content-end align-items-center"
+                                    role="">
+
+                                    <a class="text-dark" id="menu-icon" href=""><i
+                                            class="fa-solid fa-bars d-lg-none d-block"></i></a>
+
+                                    <div class="logo-main ">
+                                        <a href=""><img class="img-fluid" src="./assets/images/logo.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-lg-flex d-none me-lg-4 nav-links-main">
+                                    <ul class="d-lg-flex nav-links align-items-center p-0 mb-0 gap-4">
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">Products</a></li>
+                                        <li><a href="">Best Seller</a></li>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2  col-5 d-flex align-items-center justify-content-end" role="">
+
+                                    <div class="nav-icons-main">
+                                        <ul class="d-flex align-items-center mb-0  ">
+                                            <li><a id="search-icon" href=""> <i
+                                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                            </li>
+                                            <li><a id="cart-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                            </li>
+                                            <li><a id="user-icon" href=""><i class="fa-solid fa-user"></i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 2nd navbar -->
+        </nav>
+        <!-- navbar end -->
+    </header>
+    <!-- header end -->
+
+
+    <!-- banner srt -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="banner-main">
+                <div class="row">
+
+                    <div class="col-12 banner-right">
+                        <div class="banner-img-bg">
+                            <div class="banner-content mt-5  w-100">
+
+                                <h5 class="text-center fs-3">Where Comfort</h5>
+
+                                <h2 class="title-main text-center fw-bold"> Meet Confidence</h2>
+
+                                <p class="description">Comfort meets style with SK Nightwear – premium lingerie, cozy
+                                    sleepwear, and active <br />
+                                    essentials for everyday confidence for man and woman</p>
+
+                                <a href="" class="text-white fs-6 shop-now d-inline-block">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- bootstrap script link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- slick carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick carousel js -->
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos js -->
+
+    <!-- aos script -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- aos script -->
+
+    <script>
+        $(document).ready(function () {
+            $("#search-icon").click(function () {
+                $(".search-bar-main-main").addClass("search-bar-main-main");
+                return false;
+            });
+        });
+
+        $(document).ready(function () {
+            $("#search-close-icon").click(function () {
+                $(".search-bar-main-main").removeClass("search-bar-main-main-transform");
+            });
+        });
+
+
+
+    </script>
+
+
+    <!-- main js -->
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>
