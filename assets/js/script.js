@@ -1,12 +1,60 @@
 // nav bar 
-// menu
 
-
+// responsive menu srt
 $(document).ready(function () {
-    $(".categories-main").click(function () {
-        $(".categories-content").slideToggle();
+
+    $(".menu").click(function () {
+        $(".menu1").addClass("menu1-toggle");
+        $(".menu2").addClass("menu2-toggle");
+    })
+
+    $(".menu-list").click(function () {
+        $(".menu-icon-toggle").addClass("toggle-menu");
+        return false;
+    })
+
+    $(".cross").click(function () {
+        $(".menu-icon-toggle").removeClass("toggle-menu");
+        $(".menu1").removeClass("menu1-toggle");
+        $(".menu2").removeClass("menu2-toggle");
+        return false;
+    })
+})
+// responsive menu srt
+
+// accordion srt
+$(document).ready(function () {
+    $(".q1-title").click(function () {
+        const parent = $(this).parent();
+        const content = parent.find(".q1-content");
+        const view = parent.find(".view");
+        const close = parent.find(".close");
+
+        // Close other sections
+        $(".q1")
+            .not(parent)
+            .find(".q1-content:visible")
+            .slideUp(300) // Smoothly close
+            .parent()
+            .find(".view").fadeIn(200); // Show "View"
+        $(".q1")
+            .not(parent)
+            .find(".close").fadeOut(200); // Hide "Close"
+
+        // Toggle current section
+        if (content.is(":visible")) {
+            content.slideUp(300);
+            view.fadeIn(200);
+            close.fadeOut(200);
+        } else {
+            content.slideDown(300);
+            view.fadeOut(200);
+            close.fadeIn(200);
+        }
     });
 });
+
+// accordion end
 
 
 document.addEventListener("DOMContentLoaded", function () {

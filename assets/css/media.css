@@ -1,60 +1,95 @@
-@media (max-width: 1399px) {}
+@media (min-width: 1399px) {
+    .banner {
+        h1 {
+            width: 55% !important;
+        }
+    }
+
+    .menu-icon-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) {
+    .banner {
+        h1 {
+            width: 70% !important;
+        }
+    }
+
+    .menu-icon-toggle {
+        display: none;
+    }
+}
 
 @media (max-width: 1140px) {
-    .nav-links {
-        justify-content: start !important;
-        /* margin-left: -540px !important; */
-        white-space: nowrap !important;
-        margin-left: -50px !important;
+
+    .logo {
+        font-size: 22px;
     }
 
-    .nav-links-main {
-        /* width: 50% !important; */
+    .nav-links ul li {
+        font-size: 18px;
     }
 
-    .nav-links li a {
-        /* margin-left: 40px !important; */
+    .menu-icon-toggle {
+        display: none;
     }
 }
 
 @media (max-width: 1024px) {
-    .nav-links {
-        justify-content: start !important;
-        /* margin-left: -540px !important; */
-        white-space: nowrap !important;
-        margin-left: -70px !important;
+    .menu-icon-toggle {
+        display: none;
     }
-
 }
 
 @media (max-width: 992px) {
-    #menu-icon {
-        position: absolute;
-        left: 30px;
+
+    .logo-main::after {
+        top: -23px !important;
+        height: 64px !important;
     }
 
-    .logo-main img {
-        /* margin-left: 420px !important; */
+    .nav-links::before {
+        top: -15px !important;
+        height: 65px;
+    }
+
+    .banner-left {
+
+        h1 {
+            font-size: 40px !important;
+            margin-bottom: 50px !important;
+        }
+    }
+
+    .menu-icon-toggle {
+        display: none;
     }
 }
 
 @media (max-width: 768px) {
-    .img-img-1 {}
+    .menu-icon-toggle {
+        display: block;
+    }
 }
 
 @media (max-width: 576px) {
-    .logo-main img {
-        /* margin-left: 130px !important; */
+    .banner-left {
+
+        h1 {
+            font-size: 40px !important;
+            width: 100% !important;
+        }
     }
 
-    .header-text span {
-        font-size: 11px !important;
-        display: inline-block;
+    .banner-bg-img {
+        display: none;
     }
 }
 
-@media (max-width: 426px) {
-    .logo-main img {
-        /* margin-left: 130px !important; */
+@media (max-width: 430px) {
+    .logo {
+        font-size: 20px !important;
     }
 }
