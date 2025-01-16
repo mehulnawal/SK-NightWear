@@ -22,6 +22,9 @@ $(document).ready(function () {
 })
 // responsive menu srt
 
+
+
+
 // accordion srt
 $(document).ready(function () {
     $(".q1-title").click(function () {
