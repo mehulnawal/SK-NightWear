@@ -63,19 +63,123 @@
         }
     }
 
+    .design-left {
+        h2 {
+            width: fit-content !important;
+            display: inline-block !important;
+            font-size: 70px !important;
+        }
+    }
+
+    .design-center {
+        .design-center {
+            margin-top: 0px !important;
+        }
+    }
+
+    .design-end {
+        justify-content: space-between !important;
+        margin-bottom: 30px !important;
+
+        h4,
+        p {
+            text-align: start !important;
+        }
+
+        .design-end-inner {
+            width: 100% !important;
+        }
+    }
+
     .menu-icon-toggle {
         display: none;
     }
+
+    .design-1-img {
+        display: none !important;
+    }
+
+    .design-left {
+        h2 {
+            font-size: 60px !important;
+        }
+
+        h4 {
+            font-size: 40px !important;
+            margin: 0px !important;
+        }
+
+        h4,
+        p,
+        button {
+            margin-left: 0px !important;
+            text-align: start !important;
+        }
+    }
+
+    .meet {
+        margin: 100px 0px !important;
+    }
+
+    .w-Collection-right {
+        padding: 30px !important;
+    }
+
 }
 
 @media (max-width: 768px) {
     .menu-icon-toggle {
         display: block;
     }
+
+    .meet {
+        margin-top: 180px !important;
+    }
+
+    .w-Collection-right {
+        .text {
+            margin: auto !important;
+            width: fit-content !important;
+
+            h4 {
+                font-size: 40px !important;
+            }
+        }
+
+        input {
+            width: 100% !important;
+            font-size: 20px !important;
+        }
+    }
+
+
+    .updated {
+        .get-in-touch-right {
+            h4 {
+                margin: auto !important;
+                width: fit-content !important;
+                font-size: 35px !important;
+            }
+        }
+    }
+
+    .design-end {
+        button {
+            width: fit-content !important;
+        }
+    }
+
+    .history {
+        h4 {
+            font-size: 30px !important;
+            width: 100% !important;
+        }
+    }
 }
 
 @media (max-width: 576px) {
     .banner-left {
+        padding: 0px 0px !important;
 
         h1 {
             font-size: 40px !important;
