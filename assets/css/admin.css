@@ -633,5 +633,11 @@ a {
 }
 
 .sidebar.darkMode a:hover {
-    color: green !important;
+    color: #10B981 !important;
+}
+
+.sidebar.darkMode .catalog-dropdown,
+.sidebar.darkMode .international-dropdown,
+.sidebar.darkMode .online-store-dropdown {
+    background-color: transparent;
 }
