@@ -2,7 +2,21 @@
 
 @media (max-width: 1399px) {}
 
-@media (max-width: 1140px) {}
+@media (max-width: 1140px) {
+    .box-inner {
+        height: 150px !important;
+    }
+
+    .box {
+        width: 50% !important;
+    }
+
+    .box3,
+    .box4,
+    .box5 {
+        margin-top: 20px !important;
+    }
+}
 
 @media (max-width: 1024px) {}
 
@@ -24,8 +38,26 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .box-inner {
+        height: fit-content !important;
+    }
 
-@media (max-width: 576px) {}
+    .pieContainer {
+        height: 100% !important;
+        width: 100% !important;
+        margin: 20px 0px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        width: 100% !important;
+    }
+
+    .box2 {
+        margin-top: 20px;
+    }
+}
 
 @media (max-width: 430px) {}
