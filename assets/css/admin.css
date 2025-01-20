@@ -631,3 +631,7 @@ a {
 .darkMode {
     background-color: #fff !important;
 }
+
+.sidebar.darkMode a:hover {
+    color: green !important;
+}

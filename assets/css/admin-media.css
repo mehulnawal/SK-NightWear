@@ -48,6 +48,10 @@
         width: 100% !important;
         margin: 20px 0px !important;
     }
+
+    .dropdown-item::before {
+        left: -5% !important;
+    }
 }
 
 @media (max-width: 576px) {

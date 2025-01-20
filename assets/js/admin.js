@@ -56,7 +56,6 @@ $(document).ready(function () {
     })
 })
 
-
 $(document).ready(function () {
     $(".moon").click(function () {
         $(".sun").removeClass("sun-toggle")
