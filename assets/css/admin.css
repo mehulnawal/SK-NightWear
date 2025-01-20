@@ -632,6 +632,11 @@ a {
     background-color: #fff !important;
 }
 
+.darkMode-head-inner {
+    background-color: #F9FAFB !important;
+}
+
+
 .sidebar.darkMode a:hover {
     color: #10B981 !important;
 }
@@ -640,4 +645,20 @@ a {
 .sidebar.darkMode .international-dropdown,
 .sidebar.darkMode .online-store-dropdown {
     background-color: transparent;
+}
+
+.head-inner.darkMode-head-inner .section3 {
+
+    .content {
+        background-color: #fff !important;
+        border: 2px solid #fff;
+    }
+}
+
+.head-inner.darkMode-head-inner .section4 {
+
+    thead {
+        background-color: #fff !important;
+        border: 2px solid #fff;
+    }
 }

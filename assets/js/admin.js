@@ -51,7 +51,7 @@ $(document).ready(function () {
         $(".moon").addClass("moon-toggle")
         $(".sidebar").addClass("darkMode")
         $(".head .nav").addClass("darkMode")
-        $(".head .head-inner").addClass("darkMode")
+        $(".head .head-inner").addClass("darkMode-head-inner")
         return false;
     })
 })
@@ -62,7 +62,7 @@ $(document).ready(function () {
         $(this).removeClass("moon-toggle")
         $(".sidebar").removeClass("darkMode")
         $(".head .nav").removeClass("darkMode")
-        $(".head .head-inner").removeClass("darkMode")
+        $(".head .head-inner").removeClass("darkMode-head-inner")
         return false;
     })
 })
